@@ -1,0 +1,54 @@
+{
+  "name": "helios",
+  "version": "0.0.0",
+  "description": "",
+  "author": "heliosdesignlabs <hello@heliozilla.com>",
+  "repository": {
+    "type": "private",
+    "url": "https://github.com/heliosdesign/angular_template"
+  },
+  "devDependencies": {
+    "del": "^2.0.2",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.0.2",
+    "gulp-concat": "^2.6.0",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-file": "^0.2.0",
+    "gulp-if": "^2.0.0",
+    "gulp-imagemin": "^2.3.0",
+    "gulp-inject": "^3.0.0",
+    "gulp-inline-source": "^2.1.0",
+    "gulp-jasmine": "^2.2.1",
+    "gulp-jshint": "^1.11.2",
+    "gulp-karma": "0.0.5",
+    "gulp-livereload": "^3.8.1",
+    "gulp-load-plugins": "^0.10.0",
+    "gulp-minify-html": "^1.0.4",
+    "gulp-ng-annotate": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.5.4",
+    "gulp-sass": "^2.0.4",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-svgmin": "^1.2.0",
+    "gulp-svgstore": "^5.0.5",
+    "gulp-uglify": "^1.4.1",
+    "gulp-util": "^3.0.7",
+    "inquirer": "^0.11.0",
+    "karma": "^0.13.19",
+    "karma-jasmine": "^0.3.6",
+    "karma-ng-html2js-preprocessor": "^0.2.0",
+    "karma-phantomjs-launcher": "^0.2.3",
+    "karma-spec-reporter": "0.0.23",
+    "path-exists": "^2.1.0",
+    "phantomjs": "^1.9.19",
+    "run-sequence": "^1.1.4"
+  },
+  "dependencies": {
+    "angular-youtube-embed": "^1.2.0",
+    "bowser": "^1.0.0"
+  },
+  "scripts": {
+    "packageinstall": "tar -xzf packages.tar.gz && npm install && npm rebuild node-sass && bower install",
+    "package": "tar -czf packages.tar.gz ./src/components/ ./node_modules"
+  }
+}

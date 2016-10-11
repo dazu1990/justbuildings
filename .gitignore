@@ -1,0 +1,12 @@
+.*
+!.bowerrc
+!.jshintrc
+!.gitignore
+/_*
+/dist/**
+/node_modules
+/src/bower_components
+/src/cdn
+
+!dist/.gitignore
+!src/.htaccess

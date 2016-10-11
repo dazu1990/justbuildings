@@ -1,0 +1,14 @@
+
+{
+  "css": {
+    "lib": [
+      "src/bower_components/standardize/standardize.css"
+    ]
+  },
+  "js": {
+    "lib": [
+      "src/bower_components/underscore/underscore.js",
+      "src/bower_components/requirejs/require.js"      
+    ]
+  }
+}
