@@ -1,2 +1,13 @@
 # Tech Specs
-this is a template for the most basic - get going and start working type of build.
+Core functions:
+
+Look up card
+
+filter search
+
+save deck
+
+create user
+
+save want list
+

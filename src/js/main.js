@@ -1,1 +1,5 @@
-console.log('The main javascript is working');
+
+(function(){
+ console.log('The main javascript is working',m);
+
+})();

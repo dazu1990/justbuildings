@@ -4,16 +4,17 @@
   "authors": [
     "heliosdesignlabs <hello@heliozilla.com>"
   ],
+  "directory" : "src/components",
   "description": "",
   "main": "index.html",
   "ignore": [
     "**/.*",
     "node_modules",
-    "bower_components",
     "src/components"
   ],
   "dependencies": {
-    "underscore": "^1.8.3"
+    "underscore": "^1.8.3",
+    "mithril": "^0.2.5"
   },
   "devDependencies": {}
 }

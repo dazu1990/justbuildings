@@ -2,13 +2,12 @@
 {
   "css": {
     "lib": [
-      "src/bower_components/standardize/standardize.css"
+      "src/components/standardize/standardize.css"
     ]
   },
   "js": {
     "lib": [
-      "src/bower_components/underscore/underscore.js",
-      "src/bower_components/requirejs/require.js"      
-    ]
+      "src/components/underscore/underscore.js",
+      "src/components/mithril/mithril.js"    ]
   }
 }
