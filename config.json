@@ -8,6 +8,12 @@
   "js": {
     "lib": [
       "src/components/underscore/underscore.js",
-      "src/components/mithril/mithril.js"    ]
+      "src/components/three.js",
+      "src/components/SVGRenderer.js",
+      "src/components/SVGLoader.js",
+      "src/components/randomColor.js",
+      "src/components/modernizr.js",
+      "src/components/jquery-1.10.2.min.js"
+      ]
   }
 }

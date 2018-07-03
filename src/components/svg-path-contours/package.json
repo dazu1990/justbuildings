@@ -1,0 +1,111 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "svg-path-contours@^2.0.0",
+        "scope": null,
+        "escapedName": "svg-path-contours",
+        "name": "svg-path-contours",
+        "rawSpec": "^2.0.0",
+        "spec": ">=2.0.0 <3.0.0",
+        "type": "range"
+      },
+      "/Users/Adrian/Sites/buildings/node_modules/svg-mesh-3d"
+    ]
+  ],
+  "_from": "svg-path-contours@>=2.0.0 <3.0.0",
+  "_id": "svg-path-contours@2.0.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/svg-path-contours",
+  "_nodeVersion": "0.12.7",
+  "_npmUser": {
+    "name": "mattdesl",
+    "email": "dave.des@gmail.com"
+  },
+  "_npmVersion": "2.14.5",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "svg-path-contours@^2.0.0",
+    "scope": null,
+    "escapedName": "svg-path-contours",
+    "name": "svg-path-contours",
+    "rawSpec": "^2.0.0",
+    "spec": ">=2.0.0 <3.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/svg-mesh-3d"
+  ],
+  "_resolved": "https://registry.npmjs.org/svg-path-contours/-/svg-path-contours-2.0.0.tgz",
+  "_shasum": "c76a129429db05eb6d7b61e4d1c58d114a8938a2",
+  "_shrinkwrap": null,
+  "_spec": "svg-path-contours@^2.0.0",
+  "_where": "/Users/Adrian/Sites/buildings/node_modules/svg-mesh-3d",
+  "author": {
+    "name": "Matt DesLauriers",
+    "email": "dave.des@gmail.com",
+    "url": "https://github.com/mattdesl"
+  },
+  "bugs": {
+    "url": "https://github.com/mattdesl/svg-path-contours/issues"
+  },
+  "dependencies": {
+    "abs-svg-path": "^0.1.1",
+    "adaptive-bezier-curve": "^1.0.3",
+    "normalize-svg-path": "^0.1.0",
+    "vec2-copy": "^1.0.0"
+  },
+  "description": "gets 2D contours from an SVG path",
+  "devDependencies": {
+    "canvas-testbed": "^1.0.2",
+    "extract-svg-path": "^1.0.0",
+    "normalize-path-scale": "^1.0.1",
+    "parse-svg-path": "^0.1.1",
+    "simplify-path": "^1.0.0",
+    "tape": "^3.0.1",
+    "triangulate-contours": "^1.0.1"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "c76a129429db05eb6d7b61e4d1c58d114a8938a2",
+    "tarball": "https://registry.npmjs.org/svg-path-contours/-/svg-path-contours-2.0.0.tgz"
+  },
+  "gitHead": "b71bea065a437cc1e8afa32c533bb45fe2150ce8",
+  "homepage": "https://github.com/mattdesl/svg-path-contours",
+  "keywords": [
+    "svg",
+    "path",
+    "adaptive",
+    "curve",
+    "bezier",
+    "quadratic",
+    "cubic",
+    "vector",
+    "points",
+    "point",
+    "discrete",
+    "step",
+    "steps",
+    "approximate"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "mattdesl",
+      "email": "dave.des@gmail.com"
+    }
+  ],
+  "name": "svg-path-contours",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mattdesl/svg-path-contours.git"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "version": "2.0.0"
+}

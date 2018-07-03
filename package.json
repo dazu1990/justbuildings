@@ -45,7 +45,9 @@
   },
   "dependencies": {
     "angular-youtube-embed": "^1.2.0",
-    "bowser": "^1.0.0"
+    "bowser": "^1.0.0",
+    "randomcolor": "^0.5.3",
+    "svg-mesh-3d": "^1.1.0"
   },
   "scripts": {
     "packageinstall": "tar -xzf packages.tar.gz && npm install && npm rebuild node-sass && bower install",

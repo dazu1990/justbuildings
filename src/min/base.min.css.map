@@ -1,1 +1,1 @@
-{"version":3,"sources":["base.sass"],"names":[],"mappings":"AAAA;EACE,uBAAuB,EAAG","file":"base.min.css","sourcesContent":["body {\n  background-color: blue; }\n"]}
+{"version":3,"sources":["base.sass"],"names":[],"mappings":"AAAA;EACC,YAAY;EACZ,aAAa;EACb,YAAY;EACZ,aAAa;EACb,uBAAuB;EACvB,4BAA4B;EAC5B,sBAAsB,EAAG","file":"base.min.css","sourcesContent":["canvas {\n\twidth: 100%;\n\theight: 100%;\n\tmargin: 0px;\n\tpadding: 0px;\n\tbackground-size: cover;\n\tbackground-position: center;\n\tbackground-color: red; }\n\n"]}

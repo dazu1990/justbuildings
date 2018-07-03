@@ -67,8 +67,6 @@ function loadConfigFile(){
   // the app, init, * order is necessary so angular recognizes modules properly.
   // Test files are excluded.
   jsSources = config.js.lib.concat([
-    // src.components + '/components',
-    src.modules + '/js/main.js',
     src.modules + '/js/*/.js',
     src.modules + '/js/**/*.js'
   ]);
